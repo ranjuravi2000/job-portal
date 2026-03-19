@@ -1,0 +1,94 @@
+/* Google Font */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f7fa;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/* Hero Section */
+h1 {
+  font-weight: 700;
+  color: #333;
+}
+
+.container h1 span {
+  color: #4e73df;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #4e73df;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.btn-primary:hover {
+  background-color: #2e59d9;
+}
+
+.btn-success {
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+/* Job Cards */
+.card {
+  border: none;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+/* Form Inputs */
+input {
+  border-radius: 8px !important;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+input:focus {
+  border-color: #4e73df;
+  box-shadow: 0 0 5px rgba(78, 115, 223, 0.3);
+}
+
+/* Container spacing */
+.container {
+  max-width: 900px;
+}
+
+/* Titles */
+h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Alerts */
+.alert {
+  border-radius: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  .card {
+    margin-bottom: 15px;
+  }
+}
